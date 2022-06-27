@@ -1,2 +1,2 @@
 # Leetcode
-A record of my Leetcode answer with Chinese notes
+A record of Leetcode answer with Chinese notes
