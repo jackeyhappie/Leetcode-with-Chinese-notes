@@ -12,13 +12,13 @@ class Solution:
              1: 'I'} 
         
         #建立输出的空字符串
-        res = ""
+        rst = ""
         
         #在Python3.6+环境中，字典有序，因此循环中i会先为1000，再为900，而不是从1开始
         for i in d:
             #按从大到小的顺序添加对应个数的罗马字符
-            res += (num//i) * d[i]
+            rst += (num//i) * d[i]
             #将数字去除已转化为罗马字符的部分
             num %= i
         
-        return res
+        return rst
